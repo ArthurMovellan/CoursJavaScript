@@ -1,3 +1,4 @@
+const scanf = require('scanf');
 console.log("Veuillez saisir une chaîne");
 let c1 =scanf('%s');
 console.log("Veuillez saisir la seconde chaîne");
