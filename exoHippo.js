@@ -1,6 +1,4 @@
-  const scanf = require('scanf');
-
-  class Hippopotamus {
+class Hippopotamus {
       constructor(name, weight, tusksSize){
           this.name = name;
           this.weight = weight;
