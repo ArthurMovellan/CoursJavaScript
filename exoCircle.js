@@ -16,6 +16,7 @@ class Circle{
 
     constainsPoint(x,y){
         let dist = Math.sqrt(Math.pow((x-this.center.x),2)+Math.pow((y-this.center.y),2));
+        //return dist>this.radius
         if (dist>this.radius){
             return false;
         }else{
