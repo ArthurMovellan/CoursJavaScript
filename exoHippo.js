@@ -38,6 +38,7 @@ class Hippopotamus {
           while(d<21){
               let h = 0;//nb d'heures
               while(h<15){
+                  //this.eat().eat().swim().swim().swim();
                   this.eat();
                   this.eat();
                   this.swim();
